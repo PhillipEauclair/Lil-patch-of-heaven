@@ -1,1 +1,99 @@
+<!-- This is the start of Senior Does css-->
+.goatPic {
+  width: 50%;
+  margin: 10% 7%;
+  float: left;
+}
+.stats {
+  width: 55%;
+  margin: 10% 2%;
+  float: left;
+}
+.udder{
+  float: right;
+  margin: 7% 8%;
+  width: 21%
+}
+body {
+  background-image: url("https://res.cloudinary.com/codermast/image/upload/v1572963895/background_xclho2.jpg");
+}
+ul {
+  list-style-type: none;
+  margin:0 24%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4c8b7f;
+  position: sticky;
+  top: 0;
+}
+li {
+  float: left;
+  font-size: 22px;
+  font-family: 'Dancing Script';
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a.active {
+  background-color: #43786e;
+  color: black;
+}
+li a:hover:not(.active) {
+  color: black;
+}
+h1,
+h2,
+h4 {
+  color: white;
+  text-align: center;
+}
+.logo {
+  width: 9%;
+}
+div {
+  background-color: #4c8b7f;
+  height: auto;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+}
+p,
+h3 {
+  text-align: center;
+  margin: 1% 7%;
+}
 
+h3 {
+  color: purple;
+  font-family: "Dancing Script";
+}
+
+#one {
+  font-family: "Dancing Script";
+  font-size: 20px;
+}
+#two{
+  margin-top: 20%;
+  text-align: center;
+  float: right;
+  font-size: 24px;
+  font-family: 'Dancing Script';
+  
+}
+p {
+  font-size: 23px;
+}
+.home-page1{
+  font-family: 'Dancing Script';
+  font-size: 50px;
+}
+.home-page2{
+  font-family: 'Dancing Script';
+  font-size: 40px;
+}
+<!-- This is the end of the senior does css-->
