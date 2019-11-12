@@ -1,36 +1,44 @@
 .goatPic {
   width: 50%;
-  margin: 10% 7%;
+  margin: 2% 7%;
   float: left;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
 }
 .stats {
   width: 55%;
   margin: 10% 2%;
   float: left;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
 }
 .udder{
   float: right;
   margin: 7% 8%;
-  width: 21%
+  width: 21%;
 }
-body {
+body{
   background-image: url("https://res.cloudinary.com/codermast/image/upload/v1572963895/background_xclho2.jpg");
+  background-attachment: fixed;
 }
-ul {
+ul{
   list-style-type: none;
-  margin:0 24%;
+  margin: 0 24%;
   padding: 0;
   overflow: hidden;
   background-color: #4c8b7f;
   position: sticky;
   top: 0;
+  font-family: 'Dancing Script', cursive;
 }
-li {
+li{
   float: left;
   font-size: 22px;
   font-family: 'Dancing Script';
 }
-li a {
+li a{
   display: block;
   color: white;
   text-align: center;
@@ -50,10 +58,14 @@ h4 {
   color: white;
   text-align: center;
 }
-.logo {
+h1,
+h2 {
+  font-family: 'Dancing Script', cursive;
+}
+.logo{
   width: 9%;
 }
-div {
+.navBar {
   background-color: #4c8b7f;
   height: auto;
   width: auto;
@@ -82,21 +94,132 @@ h3 {
   float: right;
   font-size: 24px;
   font-family: 'Dancing Script';
-  
 }
 p {
   font-size: 23px;
 }
+.navBar {
+  background-color: #4c8b7f;
+  height: auto;
+  width: 100%;
+  margin: 0 0;
+  padding: 0 0; 
+  overflow: auto;
+  border-style: solid;
+  border-width: 15px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
 .home-page1{
-  font-family: 'Dancing Script';
-  font-size: 50px;
+  font-size: 350%;
 }
 .home-page2{
-  font-family: 'Dancing Script';
-  font-size: 40px;
+  font-size: 300%;
 }
 .index-goat1{
   margin: 0 12%;
   width: 22%;
   height: auto;
+}
+.stats-junior {
+  width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
+.sire,
+.dam{
+  font-size: 175%;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  margin: 2%;
+}
+#sire-name,
+#sire-text,
+#dam-name,
+#dam-text{
+  text-align: center;
+}
+.sire-info{
+  width: 50%;
+  float: left;
+}
+.feli-sire-pic{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+  margin-bottom: 3%;
+}
+.ath-sire-pic,
+.ast-sire-pic{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+  margin-bottom: 3%;
+  margin-top: 8%;
+}
+.mia-sire-pic{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+  margin-bottom: 3%;
+  margin-top: 8%;
+}
+.dam-info{
+  width: 50%;
+  float: right;
+}
+.feli-dam-pic{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+  margin-top: 1%;
+}
+.ath-dam-pic,
+.ast-dam-pic{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
+.family-tree{
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+  margin-bottom: 20%;
+}
+.mia-dam-pic,
+.mya-dam-pic{
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
 }
