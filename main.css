@@ -1,10 +1,11 @@
 .goatPic {
   width: 50%;
-  margin: 2% 7%;
+  margin: 10% 7%;
   float: left;
+  border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
   border-style: solid;
-  border-width: 20px;
-  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+  border-width: 12px;
 }
 .stats {
   width: 55%;
@@ -13,11 +14,26 @@
   border-style: solid;
   border-width: 20px;
   border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+  overflow:hidden;
+}
+.stats-sen {
+  width: 50%;
+  margin: 5% 2%;
+  float: left;
+  border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
+  border-style: solid;
+  border-width: 12px;
+  overflow:hidden;
 }
 .udder{
   float: right;
-  margin: 7% 8%;
+  margin: 0% 8%;
   width: 21%;
+  border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
+  border-style: solid;
+  border-width: 12px;
 }
 body{
   background-image: url("https://res.cloudinary.com/codermast/image/upload/v1572963895/background_xclho2.jpg");
@@ -25,7 +41,7 @@ body{
 }
 ul{
   list-style-type: none;
-  margin: 0 24%;
+  margin: 0 21%;
   padding: 0;
   overflow: hidden;
   background-color: #4c8b7f;
@@ -48,9 +64,15 @@ li a{
 li a.active {
   background-color: #43786e;
   color: black;
+  border-radius: 25px;
 }
 li a:hover:not(.active) {
+  background-color: #7ACABB;
   color: black;
+  border-radius: 25px;
+}
+li a.active:hover{
+  color: #7ACABB;
 }
 h1,
 h2,
@@ -83,17 +105,131 @@ h3 {
   color: purple;
   font-family: "Dancing Script";
 }
-
+.ridley{
+  margin-top: 7%;
+  margin-left:2%;
+  margin-right:3%;
+  border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
+  border-style: solid;
+  border-width: 12px;
+  float:left;
+  width:40%;
+}
+#pOne{
+  text-align:center;
+  font-size: 23px;
+  margin-left:50%;
+  margin-top:10%;
+}
+#pTwo{
+  text-align: center;
+  margin-left:7%;
+  margin-top: 10%;
+  font-size: 40px;
+}
+#tiny{
+  font-size: 10px;
+}
+#he1{
+  font-family:'Dancing Script';
+  font-size: 30px;
+}
+.lineage{
+  margin-left:15%;
+  width:70%;
+  margin-top: 10px;
+  border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
+  border-style: solid;
+  border-width: 10px;
+}
+.buckOne{ 
+  float:left;
+  margin-left:7%;
+  border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
+  border-style: solid;
+  border-width: 15px;
+  margin-top:2%;
+  height:270px;
+}
+.buckTwo{
+  float:right;
+  margin-right:7%;
+    border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
+  border-style: solid;
+  border-width: 15px;
+  margin-top:2%;
+  height:270px;
+}
+.textOne{
+  font-family: 'Dancing Script';
+  font-size:25px;
+}
+#buckPicTwo{
+}
+.ridleyStats{
+  margin-top: 5%;
+  margin-left:24%;
+  border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
+  border-style: solid;
+  border-width: 15px;
+}
+.ridleysDam{
+  font-size: 20px;
+  margin: 5% 1%;
+  text-align:center;
+  float:left;
+  line-height:40px;
+}
+.ridleysSire{
+  font-size: 20px;
+  margin: 5% 1%;
+  text-align:center;
+  float:right;
+  line-height:40px;
+}
+.ridleysDamPic,
+.ridleysSirePic{
+    border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
+  border-style: solid;
+  border-width: 15px;
+}
+.ridLineage{
+  border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
+  border-style: solid;
+  border-width: 9px;
+}
+.naicheLineage{
+  margin: 1% 4%;  
+  width:90%;
+  border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
+  border-style: solid;
+  border-width: 9px;
+}
 #one {
   font-family: "Dancing Script";
-  font-size: 20px;
+  font-size: 25px;
+  display:inline;
+  margin-top: 30px;
+  margin-left:11%
 }
-#two{
-  margin-top: 20%;
+#two {
+  margin-top: 5%;
   text-align: center;
   float: right;
   font-size: 24px;
-  font-family: 'Dancing Script';
+  font-family: "Dancing Script";
+}
+#three {
+  float: right;
+  margin: 2% 2%;
 }
 p {
   font-size: 23px;
@@ -111,14 +247,164 @@ p {
 }
 .home-page1{
   font-size: 350%;
+  color: white;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
 }
 .home-page2{
   font-size: 300%;
+  color: white;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.index-heading{
+  color: #3a6b62;
+  text-align: center;
+  font-family: 'Dancing Script';
+  margin-top: 40%;
+  font-size: 500%;
+}
+.index-text1{
+  text-align: center;
+  font-family: 'Times New Roman';
+  font-size: 165%;
 }
 .index-goat1{
-  margin: 0 12%;
-  width: 22%;
+  width: 50%;
+  display: block;
+  margin-top: 15%;
+  margin-left: 35%;
+  margin-right: 0;
   height: auto;
+  float: left;
+  border-style: solid;
+  border-width: 15px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
+.index-goat2{
+  width: 50%;
+  margin-top: 18%;
+  margin-left: 0;
+  margin-right: 30%;
+  height: auto;
+  float: right;
+  border-style: solid;
+  border-width: 15px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
+.index-home,
+.index-pic{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border-style: solid;
+  border-width: 15px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
+.index-pic-2{
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border-style: solid;
+  border-width: 15px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
+.index-pic-3,
+.index-pic-4,
+.index-pic-5,
+.index-pic-6,
+.index-pic-7,
+.index-pic-9{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  height: auto;
+  border-style: solid;
+  border-width: 15px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
+.index-pic-8,
+.index-pic-10{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  height: auto;
+  border-style: solid;
+  border-width: 15px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
+.name-of-home{
+  font-family: 'Dancing Script';
+  font-size: 300%;
+  color: black;
+}
+.contact-us{
+  float: left;
+  font-size: 200%;
+}
+.contact-heading{
+  color: black;
+}
+.email-address,
+.calling-info,
+.facebook-like{
+  margin-right: 0;
+  font-size: 100%;
+  color: black;
+}
+.fblogo{
+  margin-left: 40%;
+  margin-right: 0;
+  float:left;
+}
+.emlogo{
+  margin-left: 0;
+  margin-right: 40%;
+  float: right;
+}
+.map{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+.logo-for-goats,
+.info-logo{
+  background-color: #4c8b7f;
+  border-radius: 3px;
+}
+.logo{
+  width: 13%;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.logo-name{
+  color: white;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.logo-name2{
+  color: white;
+  margin-top: 8%;
+  text-align: right;
+  margin-right: 3%;
+}
+.logo-name3{
+  color: white;
+  margin-top: 7%;
+  text-align: right;
+  margin-right: 3%;
 }
 .stats-junior {
   width: 55%;
@@ -129,20 +415,45 @@ p {
   border-width: 20px;
   border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
 }
-.sire,
-.dam{
+.sire-jun,
+.dam-jun{
   font-size: 175%;
   font-family: 'Dancing Script', cursive;
   text-align: center;
   margin: 2%;
 }
+.dam{
+  font-size: 20px;
+  margin: 4% 6%;
+  text-align:center;
+  float:left;
+  line-height:40px;
+}
+.sire{
+  font-size: 20px;
+  margin: 3.5% 1%;
+  text-align:center;
+  float:right;
+  line-height:40px;
+  width:50%;
+  height:100%;
+}
+.damPic,
+.sirePic{
+    border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
+  border-style: solid;
+  border-width: 15px;
+}
 #sire-name,
 #sire-text,
 #dam-name,
-#dam-text{
+#dam-text,
+#date{
   text-align: center;
 }
-.sire-info{
+.sire-info,
+.breeding-info{
   width: 50%;
   float: left;
 }
@@ -179,7 +490,8 @@ p {
   margin-bottom: 3%;
   margin-top: 8%;
 }
-.dam-info{
+.dam-info,
+.breeding2-info{
   width: 50%;
   float: right;
 }
@@ -222,4 +534,222 @@ p {
   border-style: solid;
   border-width: 20px;
   border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
+.breeding-title{
+  color: black;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 400%;
+}
+.breed-name{
+  font-size: 175%;
+  text-align: center;
+  margin: 2%;
+}
+.breeding-pic{
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
+.Doelings {
+  float: left;
+}
+.doelingsPics {
+  width: 40%;
+  border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
+    30 round;
+  border-style: solid;
+  border-width: 12px;
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-bottom: 0;
+}
+.mySlides{
+  margin-top: 3%;
+  background: inherit;
+}
+
+.p_text{
+  text-align: center;
+  
+}
+.slideshow-container {
+  max-width: 750px;
+  position: relative;
+  background: #a1957a;
+  margin-left: 0;
+  margin-right: 15%;
+  border-style: solid;
+  border-width: 15px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
+
+.partOne{
+  margin-top:1%;
+}
+ult */ .mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #4c8b7f;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.order-1{
+  background-color: #b3b3b3;
+  padding: 20px;
+  width: auto;
+  height: 75%;
+  margin-right: 2%;
+  margin-top: 5%;
+  border-radius: 25px;
+}
+.order-2{
+  background-color: #b3b3b3;
+  padding: 20px;
+  width: auto;
+  height: 75%;
+  margin-left:2%;
+  margin-top: 5%;
+  border-radius: 25px;
+}
+.order-2-update{
+  background-color: #b3b3b3;
+  padding: 20px;
+  width: auto;
+  height: 75%;
+  margin-left:1%;
+  margin-top: 5%;
+  border-radius: 25px;
+}
+.order-pic{
+  width:50%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5%;
+}
+.babys-info{
+  text-align: center;
+  margin: 4% 7%;
+  color: white;
+  font-family: none;
+}
+.button-for-selling{
+  text-align:center;
+}
+.styles{
+  color: white;
+  background-color: #4c8b7f;
+  border-radius: 25px;
+}
+.selling-page-header{
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  text-align: center;
+  font-size: 400%;
+  border-style: solid;
+  border-width: 15px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
+.header-for-selling{
+  background-color: #a1957a;
+}
+.how-to-buy{
+  color: white;
+  font-size: 150%;
+  border-style: solid;
+  border-width: 15px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+  background-color: #a1957a;
 }
