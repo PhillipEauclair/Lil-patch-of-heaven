@@ -1,5 +1,5 @@
 .goatPic {
-  width: 50%;
+  width: 95%;
   margin: 10% 7%;
   float: left;
   border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
@@ -7,7 +7,7 @@
   border-style: solid;
   border-width: 12px;
 }
-.stats {
+.stats-jun {
   width: 55%;
   margin: 10% 2%;
   float: left;
@@ -16,7 +16,7 @@
   border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
   overflow:hidden;
 }
-.stats-sen {
+.stats{
   width: 50%;
   margin: 5% 2%;
   float: left;
@@ -103,7 +103,7 @@ h3 {
 
 h3 {
   color: purple;
-  font-family: "Dancing Script";
+  font-family: "Times New Roman";
   font-size: 30px;
   margin-top:55px;
 }
@@ -220,9 +220,7 @@ h3 {
 #one {
   font-family: "Dancing Script";
   font-size: 25px;
-  display:inline;
-  margin-top: 30px;
-  margin-left:11%
+  margin-top: 100%;
 }
 #two {
   margin-top: 5%;
@@ -234,6 +232,11 @@ h3 {
 #three {
   float: right;
   margin: 2% 2%;
+}
+#four {
+  font-family: "Dancing Script";
+  font-size: 25px;
+  float: right;
 }
 p {
   font-size: 23px;
@@ -560,7 +563,9 @@ p {
   border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
 }
 .Doelings {
-  float: left;
+ float:left;
+ margin-left: 10%;
+
 }
 .doelingsPics {
   width: 40%;
@@ -572,6 +577,7 @@ p {
   margin-left: 3%;
   margin-bottom: 0;
 }
+
 .mySlides{
   margin-top: 3%;
   background: inherit;
