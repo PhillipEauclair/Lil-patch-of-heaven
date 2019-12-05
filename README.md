@@ -24,4 +24,4 @@ phillipeauclaire@gmail.com
 
 #Project Status
 
-The Project is always development but for the most part it is done.
+The Project is always development but for the most part it's done.
