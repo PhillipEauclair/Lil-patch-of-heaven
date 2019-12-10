@@ -108,9 +108,9 @@ h3 {
   margin-top:55px;
 }
 .ridley{
-  margin-top: 7%;
+  margin-top: 5%;
   margin-left:2%;
-  margin-right:3%;
+  margin-right:10%;
   border-image: url(https://res.cloudinary.com/dmuxjpqvw/image/upload/v1573139517/border_vjxtlx.jpg)
     30 round;
   border-style: solid;
@@ -138,6 +138,12 @@ h3 {
   color: navy;
   font-size: 30px;
   margin-top: 6%;
+}
+#he2{
+  font-family:'Dancing Script';
+  color: navy;
+  font-size: 30px;
+  margin-top: 7%;
 }
 .lineage{
   margin-left:15%;
@@ -562,6 +568,15 @@ p {
   border-width: 20px;
   border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
 }
+.breeding-pic2{
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+}
 .Doelings {
  float:left;
  margin-left: 10%;
@@ -762,4 +777,29 @@ ult */ .mySlides {
   border-width: 15px;
   border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
   background-color: #a1957a;
+}
+@media only screen and (min-width: 1200px) {
+  li a {
+    padding: 14px 40px;
+  }
+  ul{
+    margin-left: 25%;
+  }
+  .logo-name3{
+  margin-top: 9.7%;
+  }
+  .breeding-pic2{
+  width: 67%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-image: url(https://res.cloudinary.com/codermast/image/upload/v1573139227/border_k6el2t.jpg) 30 round;
+  }
+  .logo-for-goats,
+  .info-logo{
+  background-color: #4c8b7f;
+  border-radius: 3px;
+  }
 }
